@@ -1,0 +1,20 @@
+.badge {
+  padding: 0.2em 1em;
+  background: whitesmoke;
+  border-radius: 3px;
+}
+
+.badge.badge-red {
+  background: #ff3860;
+  color: #fff;
+}
+
+.badge.badge-green {
+  background: #00d1b2;
+  color: #fff;
+}
+
+.badge.badge-blue {
+  background: #3273dc;
+  color: #fff;
+}

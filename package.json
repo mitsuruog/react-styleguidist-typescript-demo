@@ -20,7 +20,9 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.4.1",
+    "css-loader": "^0.28.10",
     "source-map-loader": "^0.2.3",
+    "style-loader": "^0.20.3",
     "typescript": "^2.7.2",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.2"
