@@ -17,8 +17,17 @@
   "dependencies": {
     "@types/react": "^16.0.38",
     "@types/react-dom": "^16.0.4",
+    "@types/react-intl": "^2.3.5",
+    "@types/react-intl-redux": "^0.1.8",
+    "@types/react-redux": "^5.0.15",
+    "@types/redux": "^3.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-intl": "^2.4.0",
+    "react-intl-redux": "^0.7.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "typesafe-actions": "^1.1.2"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.4.1",
