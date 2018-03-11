@@ -2,13 +2,17 @@ import { connect } from "react-redux";
 
 import LangSwitch, { LangSwitchProps } from "./LangSwitch";
 
+// export {
+//   LangSwitch,
+//   LangSwitchProps,
+// };
+
 import { langSwitchAction } from "../../../actions";
 
 interface OwnProps {
 }
 
-const mapStateToProps = (state: {}) => ({
-});
+const mapStateToProps = (state: {}) => ({});
 
 const mapDispatchToProps = (dispatch: Function, props: OwnProps) => ({
   switchLang: (locale: string) => dispatch(langSwitchAction(locale)),
