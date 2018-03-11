@@ -5,5 +5,6 @@ module.exports = {
   styleguideComponents: {
     Wrapper: __dirname + "/src/styleguide/Wrapper.tsx",
   },
-  ignore: ["**/*.connect.tsx"]
+  ignore: ["**/*.connect.tsx"],
+  styleguideDir: "docs",
 };
