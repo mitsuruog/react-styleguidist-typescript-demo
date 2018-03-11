@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Badge } from "../shared/components/badge/Badge";
+import Badge from "../shared/components/badge/Badge";
 
 export interface HelloProps {
   compiler: string;

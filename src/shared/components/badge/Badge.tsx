@@ -7,8 +7,10 @@ export interface BadgeProps {
   children?: React.ReactNode;
 }
 
-export const Badge: React.SFC<BadgeProps> = ({ color, children }) => {
+const Badge: React.SFC<BadgeProps> = ({ color, children }) => {
   return (
     <span className={`badge badge-${color}`}>{children}</span>
   )
 };
+
+export default Badge;
