@@ -1,0 +1,28 @@
+{
+  "name": "react-styleguidist-typescript-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack && cp src/index.html dist/index.html",
+    "start": "./node_modules/.bin/webpack-dev-server --port 9000 --open --hot --inline --content-base src"
+  },
+  "engines": {
+    "node": ">=v8.9.0"
+  },
+  "author": "mitsuru.ogawa.jp@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
