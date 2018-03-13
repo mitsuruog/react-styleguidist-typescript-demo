@@ -2,11 +2,6 @@ import { connect } from "react-redux";
 
 import LangSwitch, { LangSwitchProps } from "./LangSwitch";
 
-// export {
-//   LangSwitch,
-//   LangSwitchProps,
-// };
-
 import { langSwitchAction } from "../../../actions";
 
 interface OwnProps {
