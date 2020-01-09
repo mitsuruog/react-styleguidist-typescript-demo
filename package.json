@@ -10,7 +10,7 @@
     "styleguide:build": "styleguidist build"
   },
   "engines": {
-    "node": ">=v8.9.0"
+    "node": ">=10.13.0"
   },
   "author": "mitsuru.ogawa.jp@gmail.com",
   "license": "MIT",
@@ -30,14 +30,14 @@
     "typesafe-actions": "^1.1.2"
   },
   "devDependencies": {
-    "awesome-typescript-loader": "^3.4.1",
-    "css-loader": "^0.28.10",
-    "react-docgen-typescript": "^1.2.5",
-    "react-styleguidist": "^6.2.7",
-    "source-map-loader": "^0.2.3",
-    "style-loader": "^0.20.3",
-    "typescript": "^2.7.2",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.2"
+    "css-loader": "3.4.1",
+    "react-docgen-typescript": "1.16.2",
+    "react-styleguidist": "8.0.6",
+    "source-map-loader": "0.2.4",
+    "style-loader": "1.1.2",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.4",
+    "webpack": "4.41.5",
+    "webpack-dev-server": "3.10.1"
   }
 }
