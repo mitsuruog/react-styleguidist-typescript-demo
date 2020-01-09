@@ -16,7 +16,9 @@ module.exports = {
       }
     });
   },
-  propsParser: require("react-docgen-typescript").parse,
+  propsParser: require("react-docgen-typescript").withDefaultConfig({
+    savePropValueAsString: true,
+  }).parse,
   webpackConfig: Object.assign({}, require("./webpack.config"), {}),
   styleguideComponents: {
     Wrapper: __dirname + "/src/styleguide/Wrapper.tsx",
