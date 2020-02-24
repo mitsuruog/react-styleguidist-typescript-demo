@@ -2,11 +2,6 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { createStore, compose } from "redux";
 import { Provider } from "react-intl-redux";
-import { addLocaleData } from "react-intl";
-import * as jaLocale from "react-intl/locale-data/ja";
-
-// add japanese localisation data
-addLocaleData([...jaLocale]);
 
 import { Hello } from "./components/Hello";
 
@@ -22,19 +17,14 @@ declare global {
   }
 }
 
-const composeEnhancers = (
-  window && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
-) || compose;
+const composeEnhancers =
+  (window && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 
 function configureStore(initialState?: RootState) {
   // compose enhancers
   const enhancer = composeEnhancers();
   // create store
-  return createStore(
-    reducers,
-    initialState!,
-    enhancer
-  );
+  return createStore(reducers, initialState!, enhancer);
 }
 
 const store = configureStore();
