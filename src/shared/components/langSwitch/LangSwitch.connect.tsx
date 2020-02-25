@@ -12,4 +12,7 @@ const mapDispatchToProps = (dispatch: Function, props: OwnProps) => ({
   switchLang: (locale: string) => dispatch(langSwitchAction(locale))
 });
 
+/**
+ * @visibleName LangSwitch
+ */
 export default connect(mapStateToProps, mapDispatchToProps)(LangSwitch);
